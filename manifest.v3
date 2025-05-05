@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="enabled">yes</value>
+  <value name="system_package">no</value>
+  <value name="version">1.0</value>
+  <record name="startup_services" javaclass="com.wm.util.Values">
+    <null name="Ts01.startup:addGlobalVariable"/>
+    <null name="Ts01.startup:ignoreSchedulerReferenceValidation"/>
+    <null name="Ts01.startup:registerScheduler"/>
+  </record>
+  <record name="shutdown_services" javaclass="com.wm.util.Values">
+    <null name="Ts01.shutdown:unregisterScheduler"/>
+  </record>
+  <null name="replication_services"/>
+  <null name="requires"/>
+  <value name="listACL">Default</value>
+  <value name="webappLoad">yes</value>
+  <value name="reloadWithDependentPackage">yes</value>
+  <value name="build"></value>
+  <value name="description"></value>
+  <value name="created_date">07-04-2025 22:01:26 WIB</value>
+  <null name="extendedProperties"/>
+  <null name="target_server_version"/>
+</Values>
